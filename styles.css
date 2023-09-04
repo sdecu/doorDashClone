@@ -1,12 +1,31 @@
 header  {
-    padding: 20%;
+    padding: 20% 1ch;
     background-image: url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png);
     background-position: center;
 }
 
 .grey   {
+    display: flex;
+    flex-direction: column;
     background-color: #292929;
+    padding: 1em;
+
 }
+
+.email  {
+    background: none;
+    font-size: 16px;
+    padding: 0.5em;
+    border: ;
+    border-radius: 17px;
+    
+}    
+
+
 hr  {
    display: flex;
+}
+
+button  {
+    background: none;
 }
